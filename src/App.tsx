@@ -61,7 +61,9 @@ export default function App() {
         <Footer theme={theme} />
       </>
     }
-  ])
+  ], {
+    basename: "/web-dev-quiz"
+  })
 
   return (
     <>

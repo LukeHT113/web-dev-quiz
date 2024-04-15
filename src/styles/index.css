@@ -149,6 +149,7 @@ a {
 .quiz-card-container {
   display: grid;
   justify-content: center;
+  align-content: start;
   grid-template-columns: calc(100%/3 - 12px) calc(100%/3 - 12px) calc(100%/3 - 12px);
   gap: 18px;
   max-width: 1140px;
